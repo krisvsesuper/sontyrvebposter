@@ -1,0 +1,30 @@
+@media screen and (max-width: 375px) {
+	
+	.top__year {display: none;}
+	.top__year-mobile {
+		display: block;
+		text-align: center;
+	}
+	.top__box__year-moblile, .top__box__year-moblile2, .top__box__year-moblile3 {
+		display: block;
+		text-align: center;
+	}
+	.top__box__year {display: none;}
+	.grid__box-item {
+		width: 50%;
+	}	
+	.grid__box-number5, .grid__box-number7 {
+		width: 100%;
+	}
+	.n2-pc {display: none;}
+	.n2-mobile {display: block;}
+	
+	.grid__box-number1 {order: 1;}
+	.grid__box-number2 {order: 4;}
+	.grid__box-number3 {order: 2;}
+	.grid__box-number4 {order: 3;}
+	.grid__box-number5 {order: 5;}
+	.grid__box-number8 {order: 7;}
+	.grid__box-number7 {order: 8;}
+	.grid__box-number6 {order: 6;}
+}

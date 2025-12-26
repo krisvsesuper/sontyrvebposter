@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Ostrovsky";
+  src: url("../fonts/OstrovskyBold.eot");
+  src: url("../fonts/OstrovskyBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/OstrovskyBold.woff2") format("woff2"),
+    url("../fonts/OstrovskyBold.woff") format("woff"),
+    url("../fonts/OstrovskyBold.ttf") format("truetype"),
+    url("../fonts/OstrovskyBold.svg#OstrovskyBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}

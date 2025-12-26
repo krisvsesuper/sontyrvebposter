@@ -1,0 +1,214 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+}
+section .header,
+footer {
+  display: block;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #00461d;
+  color: #ffffff;
+  font-size: clamp(24px, 5.5vw, 86px);
+  line-height: 100%;
+  font-family: "Ostrovsky";
+}
+.container {
+  overflow: hidden;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+.header {
+  background-color: #005524;
+}
+.header-title {
+  height: 100%;
+  animation: infiniteHorizontal1 10s infinite linear;
+}
+
+.footer {
+  background-color: #ffffff;
+  padding: 1% 0 0;
+}
+.footer-text {
+  color: #000;
+}
+.section-top {
+  overflow: hidden;
+  background-color: #fff;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 3%;
+}
+.top__year-mobile {
+  display: none;
+}
+
+.grid__box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid__box-item {
+  width: 33.33%;
+}
+.grid__box-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.top__year {
+  background-image: url(../images/podarki.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.top__year {
+  background-image: none;
+}
+
+.top__year:hover {
+  background-image: url(../images/podarki.svg);
+}
+.top__year:hover img {
+  opacity: 0;
+}
+
+.top__year-mobile {
+  background-image: url(../images/bed-smal.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.top__year-mobile {
+  background-image: none;
+}
+
+.top__year-mobile:hover {
+  background-image: url(../images/bed-smal.svg);
+}
+.top__year-mobile:hover img {
+  opacity: 0;
+}
+.grid__box-number1 {
+  overflow: hidden;
+  animation: rotateRight 2s infinite linear;
+  transform-origin: center center;
+}
+
+.grid__box-number2 {
+  background-image: url(../images/krug.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.grid__box-number2 {
+  background-image: none;
+}
+
+.grid__box-number2:hover {
+  background-image: url(../images/krug.jpg);
+}
+
+.grid__box-number2:hover img {
+  opacity: 0;
+}
+.grid__box-number4 {
+  overflow: hidden;
+  position: relative;
+
+  width: 33.33%;
+}
+
+.image-slider {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  animation: infiniteHorizontal 10s infinite linear;
+}
+
+.image-slider1 {
+  height: 100%;
+  width: auto;
+}
+
+.grid__box-number5 .text {
+  transform-origin: center center;
+  animation: pulseScaleY 1.5s infinite alternate
+    cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.grid__box-number5 {
+  width: 66.66%;
+}
+.grid__box-number5 .text {
+  font-weight: 500;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+}
+.grid__box-number6 {
+  position: relative;
+  background-color: #af0202;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: remFastSwitch 2s infinite;
+}
+.grid__box-number6 img {
+  animation: remImgFastSwitch 2s infinite;
+}
+.grid__box-number8 img {
+  animation: remImgFastSwitch 2s infinite;
+}
+.grid__box-number8 {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: remFastSwitch2 2s infinite;
+}
+
+.grid__box-number8 .span-n2,
+.span-n4 {
+  font-size: 110%;
+}
+.span-n3 {
+  font-size: 120%;
+}
+
+.n2-mobile {
+  display: none;
+}

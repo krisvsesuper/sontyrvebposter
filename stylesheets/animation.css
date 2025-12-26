@@ -1,0 +1,62 @@
+@keyframes pulseScaleY {
+  0% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(0.7);
+  }
+}
+@keyframes rotateRight {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes remFastSwitch {
+  0%,
+  70% {
+    background-image: none;
+  }
+  71%,
+  100% {
+    background-image: url(../images/elka1.svg);
+  }
+}
+@keyframes remFastSwitch2 {
+  0%,
+  70% {
+    background-image: none;
+  }
+  71%,
+  100% {
+    background-image: url(../images/elka2.svg);
+  }
+}
+@keyframes remImgFastSwitch {
+  0%,
+  70% {
+    opacity: 1;
+  }
+  71%,
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes infiniteHorizontal {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@keyframes infiniteHorizontal1 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
